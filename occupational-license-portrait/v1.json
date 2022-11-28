@@ -25,7 +25,8 @@
           "@type": "@json"
         },
         "licenseeAddress": {
-          "@id": "schema:address"
+          "@id": "nyscred:address",
+          "@type": "Person"
         }
       }
     }
