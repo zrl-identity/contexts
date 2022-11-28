@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "NYSRealEstateBrokerCredential": {
+      "@id": "https://zrl-identity.github.io/contexts/occupational-license-portrait#NYSRealEstateBrokerCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "schema": "http://schema.org/",
+        "nyscred": "https://zrl-identity.github.io/contexts/occupational-license-portrait/v1.json/#",
+        "nonTransferable": "nyscred:nonTransferable",
+        "license": {
+          "@id": "nyscred:license",
+          "@type": "@id",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "givenName": {
+              "@id": "schema:givenName",
+              "@type": "@id"
+            },
+            "portraitMetadata": {
+              "@id": "nyscred:portraitMetadata",
+              "@type": "@json"
+            }
+          }
+        }
+      }
+    }
+  }
+}

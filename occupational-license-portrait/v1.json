@@ -12,7 +12,8 @@
         "familyName": "schema:familyName",
         "idNum": "schema:identifier",
         "occupation": "schema:occupation",
-        "businessName": "schema:legalName",
+        "licenseeAddress": "schema:address",
+        "businessName": "schema:identifier",
         "businessAddress": "schema:address",
         "streetAddress1": "schema:streetAddress",
         "streetAddress2": "schema:streetAddress",
@@ -23,12 +24,6 @@
         "portraitMetadata": {
           "@id": "nyscred:portraitMetadata",
           "@type": "@json"
-        },
-        "licenseeAddress": {
-          "@id": "nyscred:address",
-          "@type": "Person"
         }
       }
-    }
-  }
-}
+x
