@@ -25,7 +25,7 @@
           "@type": "@json"
         },
         "licenseeAddress": {
-          "@id": "schema:address",
+          "@id": "schema:address"
         }
       }
     }
