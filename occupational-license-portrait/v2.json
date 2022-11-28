@@ -4,24 +4,46 @@
     "@protected": true,
     "id": "@id",
     "type": "@type",
-    "NYS": {
-      "@id": "nyscred:NYS",
+
+    "schema": "http://schema.org/",
+    "nyscred": "https://zrl-identity.github.io/contexts/occupational-license-portrait/v2.json/",
+
+    "NYSRealEstateBrokerCredential": {
+      "@id": "nyscred:NYSRealEstateBrokerCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "schema": "http://schema.org/",
-        "nyscred": "https://zrl-identity.github.io/contexts/occupational-license-portrait/v2.json/",
-        "familyName": "schema:familyName",
-        "givenName": "schema:givenName",
-        "portraitMetadata": {
-          "@id": "nyscred:portraitMetadata",
-          "@type": "@json"
+        "license": {
+          "@id": "nyscred:license",
+          "@type": "@id",
+          "@context": {
+            "givenName": "schema:givenName",
+            "familyName": "schema:familyName",
+            "idNum": "schema:identifier",
+            "occupation": "schema:occupation",
+            "licenseeAddress": "schema:address",
+            "businessName": "schema:legalName",
+            "businessAddress": "schema:address",
+            "streetAddress1": "schema:streetAddress",
+            "streetAddress2": "schema:streetAddress",
+            "addressLocality": "schema:addressLocality",
+            "addressRegion": "schema:addressRegion",
+            "addressCountry": "schema:addressCountry",
+            "postalCode": "schema:postalCode",
+            "portraitMetadata": {
+              "@id": "nyscred:portraitMetadata",
+              "@type": "@json"
+            }
+
+          }
         }
       }
     }
   }
 }
+
+
 
 
