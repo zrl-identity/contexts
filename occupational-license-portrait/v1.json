@@ -13,7 +13,7 @@
         "idNum": "schema:identifier",
         "occupation": "schema:occupation",
         "licenseeAddress": "schema:address",
-        "businessName": "schema:identifier",
+        "businessName": "schema:legalName",
         "businessAddress": "schema:address",
         "streetAddress1": "schema:streetAddress",
         "streetAddress2": "schema:streetAddress",
