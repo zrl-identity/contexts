@@ -17,8 +17,11 @@
         "type": "@type",
         "license": {
           "@id": "nyscred:license",
-          "@type": "@id",
+          "id": "@id",
+          "type": "@type",
           "@context": {
+            "id": "@id",
+            "type": "@type",
             "givenName": "schema:givenName",
             "familyName": "schema:familyName",
             "idNum": "schema:identifier",
